@@ -42,7 +42,7 @@
         .slide-dots { display: flex; gap: 6px; flex-wrap: wrap; max-width: 300px; justify-content: center; }
         .slide-dots .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--color-glass-border); cursor: pointer; transition: background 0.3s, transform 0.3s; }
         .slide-dots .dot.active { background: var(--color-accent-1); transform: scale(1.3); }
-        .slide-counter { font-size: 0.75rem; color: var(--color-text-muted); min-width: 40px; text-align: center; }
+        .slide-counter { font-size:0.87rem; color: var(--color-text-muted); min-width: 40px; text-align: center; }
         .reveal { opacity: 0; transform: translateY(20px); }
         @keyframes float-slow { 0% { transform: translate(0,0) scale(1); } 25% { transform: translate(60px,-50px) scale(1.12); } 50% { transform: translate(-40px,40px) scale(0.9); } 75% { transform: translate(50px,20px) scale(1.08); } 100% { transform: translate(0,0) scale(1); } }
         @keyframes float-drift { 0% { transform: translate(0,0) scale(1) rotate(0deg); } 33% { transform: translate(-50px,-60px) scale(1.15) rotate(3deg); } 66% { transform: translate(40px,30px) scale(0.88) rotate(-2deg); } 100% { transform: translate(0,0) scale(1) rotate(0deg); } }
@@ -88,38 +88,38 @@
         <div class="blob" style="width:250px;height:250px;bottom:-50px;left:-40px;background:var(--color-accent-1);opacity:0.06;"></div>
     </div>
     <div class="content">
-        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.75rem;color:var(--color-accent-1);margin-bottom:0.5rem;">1. Dataset</p>
+        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.87rem;color:var(--color-accent-1);margin-bottom:0.5rem;">1. Dataset</p>
         <h2 class="font-display reveal" style="font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:700;margin-bottom:1.5rem;">Barómetro Andaluz CENTRA 2023</h2>
         <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;" class="reveal">
             <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:12px;padding:1.2rem;text-align:center;">
                 <div style="font-size:2rem;font-weight:900;color:var(--color-accent-1);" class="glow-pulse">3.598</div>
-                <div style="font-size:0.8rem;color:var(--color-text-muted);margin-top:0.3rem;">Encuestados válidos</div>
+                <div style="font-size:0.93rem;color:var(--color-text-muted);margin-top:0.3rem;">Encuestados válidos</div>
             </div>
             <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:12px;padding:1.2rem;text-align:center;">
                 <div style="font-size:2rem;font-weight:900;color:var(--color-accent-2);">130</div>
-                <div style="font-size:0.8rem;color:var(--color-text-muted);margin-top:0.3rem;">Variables finales</div>
+                <div style="font-size:0.93rem;color:var(--color-text-muted);margin-top:0.3rem;">Variables finales</div>
             </div>
             <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:12px;padding:1.2rem;text-align:center;">
                 <div style="font-size:2rem;font-weight:900;color:var(--color-accent-3);">8</div>
-                <div style="font-size:0.8rem;color:var(--color-text-muted);margin-top:0.3rem;">Provincias andaluzas</div>
+                <div style="font-size:0.93rem;color:var(--color-text-muted);margin-top:0.3rem;">Provincias andaluzas</div>
             </div>
         </div>
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1rem;" class="reveal">
             <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-left:3px solid var(--color-accent-1);border-radius:8px;padding:1rem;">
-                <div style="font-size:0.8rem;font-weight:600;color:var(--color-accent-1);margin-bottom:0.4rem;">Variables objetivo</div>
-                <div style="font-size:0.85rem;color:var(--color-text-secondary);">OPTIMISMO y FELICIDAD (escalas 0–10) son las dos variables que el proyecto intenta explicar y predecir</div>
+                <div style="font-size:0.93rem;font-weight:600;color:var(--color-accent-1);margin-bottom:0.4rem;">Variables objetivo</div>
+                <div style="font-size:0.97rem;color:var(--color-text-secondary);">OPTIMISMO y FELICIDAD (escalas 0–10) son las dos variables que el proyecto intenta explicar y predecir</div>
             </div>
             <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-left:3px solid var(--color-accent-2);border-radius:8px;padding:1rem;">
-                <div style="font-size:0.8rem;font-weight:600;color:var(--color-accent-2);margin-bottom:0.4rem;">Por qué permite minería</div>
-                <div style="font-size:0.85rem;color:var(--color-text-secondary);">Muestra representativa, variables mixtas (demográficas, percepción, hábitos), alta calidad: 131 de 138 variables sin valores faltantes</div>
+                <div style="font-size:0.93rem;font-weight:600;color:var(--color-accent-2);margin-bottom:0.4rem;">Por qué permite minería</div>
+                <div style="font-size:0.97rem;color:var(--color-text-secondary);">Muestra representativa, variables mixtas (demográficas, percepción, hábitos), alta calidad: 131 de 138 variables sin valores faltantes</div>
             </div>
         </div>
         <div class="reveal" style="margin-top:1rem;background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:8px;padding:0.9rem;">
-            <span style="font-size:0.8rem;color:var(--color-text-muted);">Variables clave: </span>
-            <span style="font-size:0.85rem;color:var(--color-text-secondary);">Sociodemográficas: PROVINCIA, SEXO, EDAD_RANGO y TAMAÑO_HABITAT · De opinión: P1012–P1016 (percepción económica y servicios) · 87 variables one-hot de hábitos y consumo</span>
+            <span style="font-size:0.93rem;color:var(--color-text-muted);">Variables clave: </span>
+            <span style="font-size:0.97rem;color:var(--color-text-secondary);">Sociodemográficas: PROVINCIA, SEXO, EDAD_RANGO y TAMAÑO_HABITAT · De opinión: P1012–P1016 (percepción económica y servicios) · 87 variables one-hot de hábitos y consumo</span>
         </div>
         <div class="reveal" style="margin-top:1rem;background:rgba(52,211,153,0.06);border:1px solid rgba(52,211,153,0.15);border-radius:8px;padding:0.8rem;text-align:center;">
-            <span style="font-size:0.85rem;color:var(--color-text-secondary);"> Las 136 variables están almacenadas como enteros, pero su naturaleza estadística es radicalmente distinta, por lo que se trató el tipo de variable de las usadas.</span>
+            <span style="font-size:0.97rem;color:var(--color-text-secondary);"> Las 136 variables están almacenadas como enteros, pero su naturaleza estadística es radicalmente distinta, por lo que se trató el tipo de variable de las usadas.</span>
         </div>
     </div>
 </div>
@@ -131,25 +131,25 @@
         <div class="blob" style="width:280px;height:280px;bottom:-60px;right:-40px;background:var(--color-accent-1);opacity:0.06;"></div>
     </div>
     <div class="content">
-        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.75rem;color:var(--color-accent-3);margin-bottom:0.5rem;">2–3. Problema y Preguntas</p>
+        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.87rem;color:var(--color-accent-3);margin-bottom:0.5rem;">2–3. Problema y Preguntas</p>
         <h2 class="font-display reveal" style="font-size:clamp(1.6rem,3vw,2.4rem);font-weight:700;margin-bottom:0.5rem;">¿Qué determina que un andaluz<br>se declare optimista o feliz?</h2>
         <p class="reveal" style="font-size:0.9rem;color:var(--color-text-muted);margin-bottom:1.2rem;">La hipótesis inicial (provincia, sexo y edad determinan el bienestar) resultó incorrecta. Demostrarlo con datos es la aportación central.</p>
         <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0.9rem;" class="reveal">
             <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-top:3px solid #34d399;border-radius:10px;padding:1rem;">
-                <div style="font-size:0.7rem;font-weight:700;color:#34d399;text-transform:uppercase;letter-spacing:3px;margin-bottom:0.5rem;">BI · Descriptivo</div>
-                <div style="font-size:0.82rem;color:var(--color-text-secondary);line-height:1.5;"><strong>BI-1:</strong> ¿Cómo se distribuye el optimismo por grupos de edad?<br><br><strong>BI-2:</strong> ¿Qué perfil (sexo x edad x hábitat) concentra mayor y menor felicidad?</div>
+                <div style="font-size:0.82rem;font-weight:700;color:#34d399;text-transform:uppercase;letter-spacing:3px;margin-bottom:0.5rem;">BI · Descriptivo</div>
+                <div style="font-size:0.95rem;color:var(--color-text-secondary);line-height:1.5;"><strong>BI-1:</strong> ¿Cómo se distribuye el optimismo por grupos de edad?<br><br><strong>BI-2:</strong> ¿Qué perfil (sexo x edad x hábitat) concentra mayor y menor felicidad?</div>
             </div>
             <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-top:3px solid #06b6d4;border-radius:10px;padding:1rem;">
-                <div style="font-size:0.7rem;font-weight:700;color:#06b6d4;text-transform:uppercase;letter-spacing:3px;margin-bottom:0.5rem;">BA · Analítico</div>
-                <div style="font-size:0.82rem;color:var(--color-text-secondary);line-height:1.5;"><strong>BA-1:</strong> ¿Qué variables explican mejor el optimismo y qué perfil concentra el mayor pesimismo?<br><br><strong>BA-2:</strong> ¿Condiciona el hábitat el bienestar al basarnos en economía y estudios?</div>
+                <div style="font-size:0.82rem;font-weight:700;color:#06b6d4;text-transform:uppercase;letter-spacing:3px;margin-bottom:0.5rem;">BA · Analítico</div>
+                <div style="font-size:0.95rem;color:var(--color-text-secondary);line-height:1.5;"><strong>BA-1:</strong> ¿Qué variables explican mejor el optimismo y qué perfil concentra el mayor pesimismo?<br><br><strong>BA-2:</strong> ¿Condiciona el hábitat el bienestar al basarnos en economía y estudios?</div>
             </div>
             <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-top:3px solid #a78bfa;border-radius:10px;padding:1rem;">
-                <div style="font-size:0.7rem;font-weight:700;color:#a78bfa;text-transform:uppercase;letter-spacing:3px;margin-bottom:0.5rem;">DS · Predictivo</div>
-                <div style="font-size:0.82rem;color:var(--color-text-secondary);line-height:1.5;"><strong>DS-1:</strong> ¿Es posible estimar el optimismo de un ciudadano?<br><br><strong>DS-2:</strong> ¿Es posible clasificar a un ciudadano como feliz o no feliz?</div>
+                <div style="font-size:0.82rem;font-weight:700;color:#a78bfa;text-transform:uppercase;letter-spacing:3px;margin-bottom:0.5rem;">DS · Predictivo</div>
+                <div style="font-size:0.95rem;color:var(--color-text-secondary);line-height:1.5;"><strong>DS-1:</strong> ¿Es posible estimar el optimismo de un ciudadano?<br><br><strong>DS-2:</strong> ¿Es posible clasificar a un ciudadano como feliz o no feliz?</div>
             </div>
         </div>
         <div class="reveal" style="margin-top:1rem;background:rgba(52,211,153,0.06);border:1px solid rgba(52,211,153,0.15);border-radius:8px;padding:0.8rem;text-align:center;">
-            <span style="font-size:0.85rem;color:var(--color-text-secondary);"> <strong>Utilidad:</strong> Permite segmentar población en riesgo de bajo bienestar y orientar políticas públicas más eficaces</span>
+            <span style="font-size:0.97rem;color:var(--color-text-secondary);"> <strong>Utilidad:</strong> Permite segmentar población en riesgo de bajo bienestar y orientar políticas públicas más eficaces</span>
         </div>
     </div>
 </div>
@@ -162,29 +162,29 @@
         <div class="blob" style="width:260px;height:260px;bottom:-50px;left:-40px;background:var(--color-accent-3);opacity:0.06;"></div>
     </div>
     <div class="content">
-        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.75rem;color:var(--color-accent-2);margin-bottom:0.5rem;">4. Proceso — Preparación de Datos</p>
+        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.87rem;color:var(--color-accent-2);margin-bottom:0.5rem;">4. Proceso — Preparación de Datos</p>
         <h2 class="font-display reveal" style="font-size:clamp(1.6rem,3vw,2.4rem);font-weight:700;margin-bottom:1rem;">11 operadores · RapidMiner Studio</h2>
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.9rem;" class="reveal">
             <div>
-                <div style="font-size:0.75rem;font-weight:700;color:var(--color-accent-2);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.6rem;">Problemas tratados</div>
+                <div style="font-size:0.87rem;font-weight:700;color:var(--color-accent-2);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.6rem;">Problemas tratados</div>
                 <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:0.45rem;">
-                    <li style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:6px;padding:0.5rem 0.7rem;font-size:0.8rem;color:var(--color-text-secondary);"> - Valores 98/99 (NS/NC) en 41 variables → <em>Declare Missing Values</em></li>
-                    <li style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:6px;padding:0.5rem 0.7rem;font-size:0.8rem;color:var(--color-text-secondary);"> - 5 variables con >50% missing estructural → eliminadas</li>
-                    <li style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:6px;padding:0.5rem 0.7rem;font-size:0.8rem;color:var(--color-text-secondary);"> - Missing en one-hot (BCHVC, BAJEV) → sustituidos por 0</li>
-                    <li style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:6px;padding:0.5rem 0.7rem;font-size:0.8rem;color:var(--color-text-secondary);"> - Nominales codificadas como número → <em>Numerical to Polynominal</em></li>
-                    <li style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:6px;padding:0.5rem 0.7rem;font-size:0.8rem;color:var(--color-text-secondary);"> - EDAD continua duplicaba EDAD_RANGO → eliminada</li>
+                    <li style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:6px;padding:0.5rem 0.7rem;font-size:0.93rem;color:var(--color-text-secondary);"> - Valores 98/99 (NS/NC) en 41 variables → <em>Declare Missing Values</em></li>
+                    <li style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:6px;padding:0.5rem 0.7rem;font-size:0.93rem;color:var(--color-text-secondary);"> - 5 variables con >50% missing estructural → eliminadas</li>
+                    <li style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:6px;padding:0.5rem 0.7rem;font-size:0.93rem;color:var(--color-text-secondary);"> - Missing en one-hot (BCHVC, BAJEV) → sustituidos por 0</li>
+                    <li style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:6px;padding:0.5rem 0.7rem;font-size:0.93rem;color:var(--color-text-secondary);"> - Nominales codificadas como número → <em>Numerical to Polynominal</em></li>
+                    <li style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:6px;padding:0.5rem 0.7rem;font-size:0.93rem;color:var(--color-text-secondary);"> - EDAD continua duplicaba EDAD_RANGO → eliminada</li>
                 </ul>
             </div>
             <div>
-                <div style="font-size:0.75rem;font-weight:700;color:var(--color-accent-1);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.6rem;">Variable clave creada</div>
+                <div style="font-size:0.87rem;font-weight:700;color:var(--color-accent-1);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.6rem;">Variable clave creada</div>
                 <div style="background:rgba(52,211,153,0.06);border:1px solid rgba(52,211,153,0.2);border-radius:10px;padding:1rem;margin-bottom:0.8rem;">
                     <div style="font-size:0.9rem;font-weight:700;color:var(--color-accent-1);margin-bottom:0.4rem;">FELIZ (binarización de FELICIDAD)</div>
-                    <div style="font-size:0.82rem;color:var(--color-text-secondary);">FELIZ = 1 si FELICIDAD ≥ 8<br>FELIZ = 0 si FELICIDAD &lt; 8<br><br>Umbral 8 = mínimo desbalance (52.5% vs 47.5%) y coincide con la moda de la distribución</div>
+                    <div style="font-size:0.95rem;color:var(--color-text-secondary);">FELIZ = 1 si FELICIDAD ≥ 8<br>FELIZ = 0 si FELICIDAD &lt; 8<br><br>Umbral 8 = mínimo desbalance (52.5% vs 47.5%) y coincide con la moda de la distribución</div>
                 </div>
                 <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:8px;padding:0.8rem;text-align:center;">
-                    <div style="font-size:0.75rem;color:var(--color-text-muted);">Resultado final</div>
+                    <div style="font-size:0.87rem;color:var(--color-text-muted);">Resultado final</div>
                     <div style="font-size:1.1rem;font-weight:700;color:var(--color-accent-2);margin-top:0.2rem;">3.598 registros · 130 variables</div>
-                    <div style="font-size:0.75rem;color:var(--color-text-muted);">sin valores 98/99 activos · tipos correctos</div>
+                    <div style="font-size:0.87rem;color:var(--color-text-muted);">sin valores 98/99 activos · tipos correctos</div>
                 </div>
             </div>
         </div>
@@ -198,7 +198,7 @@
         <div class="blob" style="width:260px;height:260px;bottom:-50px;left:-40px;background:var(--color-accent-3);opacity:0.06;"></div>
     </div>
     <div class="content">
-        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.75rem;color:var(--color-accent-2);margin-bottom:0.5rem;">4.1. Proceso — Flujo de Trabajo</p>
+        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.87rem;color:var(--color-accent-2);margin-bottom:0.5rem;">4.1. Proceso — Flujo de Trabajo</p>
         <h2 class="font-display reveal" style="font-size:clamp(1.6rem,3vw,2.4rem);font-weight:700;margin-bottom:1.5rem;">Flujo en RapidMiner Studio</h2>
         <div class="reveal" style="text-align:center;">
             <img src="flujo.png" alt="Flujo RapidMiner" style="max-width:100%;max-height:55vh;object-fit:contain;border-radius:12px;border:1px solid var(--color-glass-border);">
@@ -213,52 +213,52 @@
         <div class="blob" style="width:280px;height:280px;bottom:-60px;right:-40px;background:var(--color-accent-2);opacity:0.06;"></div>
     </div>
     <div class="content">
-        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.75rem;color:var(--color-accent-1);margin-bottom:0.5rem;">5. Técnica Aplicada</p>
+        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.87rem;color:var(--color-accent-1);margin-bottom:0.5rem;">5. Técnica Aplicada</p>
         <h2 class="font-display reveal" style="font-size:clamp(1.6rem,3vw,2.4rem);font-weight:700;margin-bottom:0.8rem;">AutoModel → Decision Tree</h2>
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;" class="reveal">
             <div>
-                <div style="font-size:0.75rem;font-weight:700;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.6rem;">Algoritmos comparados (AutoModel)</div>
+                <div style="font-size:0.87rem;font-weight:700;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.6rem;">Algoritmos comparados (AutoModel)</div>
                 <div style="display:flex;flex-direction:column;gap:0.4rem;">
                     <div style="display:flex;align-items:center;gap:0.6rem;">
-                        <span style="font-size:0.78rem;width:120px;color:var(--color-text-secondary);">GBT</span>
+                        <span style="font-size:0.92rem;width:120px;color:var(--color-text-secondary);">GBT</span>
                         <div class="bar-track"><div class="bar-fill bar-fill-anim" data-width="90" style="background:linear-gradient(90deg,#06b6d4,#34d399);width:0%;"></div></div>
-                        <span style="font-size:0.78rem;color:var(--color-text-muted);">67.5%</span>
+                        <span style="font-size:0.92rem;color:var(--color-text-muted);">67.5%</span>
                     </div>
                     <div style="display:flex;align-items:center;gap:0.6rem;">
-                        <span style="font-size:0.78rem;width:120px;color:var(--color-text-secondary);">Random Forest</span>
+                        <span style="font-size:0.92rem;width:120px;color:var(--color-text-secondary);">Random Forest</span>
                         <div class="bar-track"><div class="bar-fill bar-fill-anim" data-width="89" style="background:linear-gradient(90deg,#06b6d4,#34d399);width:0%;"></div></div>
-                        <span style="font-size:0.78rem;color:var(--color-text-muted);">67.7%</span>
+                        <span style="font-size:0.92rem;color:var(--color-text-muted);">67.7%</span>
                     </div>
                     <div style="display:flex;align-items:center;gap:0.6rem;">
-                        <span style="font-size:0.78rem;width:120px;font-weight:700;color:var(--color-accent-1);">✓ Decision Tree</span>
+                        <span style="font-size:0.92rem;width:120px;font-weight:700;color:var(--color-accent-1);">✓ Decision Tree</span>
                         <div class="bar-track"><div class="bar-fill bar-fill-anim" data-width="89" style="background:linear-gradient(90deg,#34d399,#a78bfa);width:0%;"></div></div>
-                        <span style="font-size:0.78rem;color:var(--color-accent-1);font-weight:700;">67.7%</span>
+                        <span style="font-size:0.92rem;color:var(--color-accent-1);font-weight:700;">67.7%</span>
                     </div>
                     <div style="display:flex;align-items:center;gap:0.6rem;">
-                        <span style="font-size:0.78rem;width:120px;color:var(--color-text-secondary);">Deep Learning</span>
+                        <span style="font-size:0.92rem;width:120px;color:var(--color-text-secondary);">Deep Learning</span>
                         <div class="bar-track"><div class="bar-fill bar-fill-anim" data-width="83" style="background:linear-gradient(90deg,#475569,#64748b);width:0%;"></div></div>
-                        <span style="font-size:0.78rem;color:var(--color-text-muted);">68.2%</span>
+                        <span style="font-size:0.92rem;color:var(--color-text-muted);">68.2%</span>
                     </div>
                     <div style="display:flex;align-items:center;gap:0.6rem;">
-                        <span style="font-size:0.78rem;width:120px;color:var(--color-text-secondary);">GLM</span>
+                        <span style="font-size:0.92rem;width:120px;color:var(--color-text-secondary);">GLM</span>
                         <div class="bar-track"><div class="bar-fill bar-fill-anim" data-width="76" style="background:linear-gradient(90deg,#475569,#64748b);width:0%;"></div></div>
-                        <span style="font-size:0.78rem;color:var(--color-text-muted);">69.7%</span>
+                        <span style="font-size:0.92rem;color:var(--color-text-muted);">69.7%</span>
                     </div>
                 </div>
-                <p style="font-size:0.75rem;color:var(--color-text-muted);margin-top:0.5rem;">64.308 configuraciones evaluadas</p>
+                <p style="font-size:0.87rem;color:var(--color-text-muted);margin-top:0.5rem;">64.308 configuraciones evaluadas</p>
             </div>
             <div style="display:flex;flex-direction:column;gap:0.7rem;">
                 <div style="background:rgba(52,211,153,0.06);border:1px solid rgba(52,211,153,0.2);border-radius:10px;padding:1rem;">
-                    <div style="font-size:0.8rem;font-weight:700;color:var(--color-accent-1);margin-bottom:0.4rem;">¿Por qué Decision Tree?</div>
-                    <div style="font-size:0.82rem;color:var(--color-text-secondary);">GBT vs DT: solo 0.2 pp de diferencia. No justifica ×52 de tiempo de entrenamiento ni perder interpretabilidad total.</div>
+                    <div style="font-size:0.93rem;font-weight:700;color:var(--color-accent-1);margin-bottom:0.4rem;">¿Por qué Decision Tree?</div>
+                    <div style="font-size:0.95rem;color:var(--color-text-secondary);">GBT vs DT: solo 0.2 pp de diferencia. No justifica ×52 de tiempo de entrenamiento ni perder interpretabilidad total.</div>
                 </div>
                 <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:10px;padding:1rem;">
-                    <div style="font-size:0.8rem;font-weight:700;color:var(--color-accent-2);margin-bottom:0.4rem;">Parámetros DS-1 (Regresión)</div>
-                    <div style="font-size:0.8rem;color:var(--color-text-secondary);">criterion = least_square · max_depth = 7 · pruning activado · partición 70/30</div>
+                    <div style="font-size:0.93rem;font-weight:700;color:var(--color-accent-2);margin-bottom:0.4rem;">Parámetros DS-1 (Regresión)</div>
+                    <div style="font-size:0.93rem;color:var(--color-text-secondary);">criterion = least_square · max_depth = 7 · pruning activado · partición 70/30</div>
                 </div>
                 <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:10px;padding:1rem;">
-                    <div style="font-size:0.8rem;font-weight:700;color:var(--color-accent-3);margin-bottom:0.4rem;">Parámetros DS-2 (Clasificación)</div>
-                    <div style="font-size:0.8rem;color:var(--color-text-secondary);">criterion = gain_ratio · max_depth = 5 · Numerical to Polynominal en FELIZ · partición estratificada 70/30</div>
+                    <div style="font-size:0.93rem;font-weight:700;color:var(--color-accent-3);margin-bottom:0.4rem;">Parámetros DS-2 (Clasificación)</div>
+                    <div style="font-size:0.93rem;color:var(--color-text-secondary);">criterion = gain_ratio · max_depth = 5 · Numerical to Polynominal en FELIZ · partición estratificada 70/30</div>
                 </div>
             </div>
         </div>
@@ -272,35 +272,35 @@
         <div class="blob" style="width:260px;height:260px;bottom:-50px;left:-40px;background:var(--color-accent-2);opacity:0.06;"></div>
     </div>
     <div class="content">
-        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.75rem;color:var(--color-accent-3);margin-bottom:0.3rem;">6. Resultados — Business Intelligence</p>
+        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.87rem;color:var(--color-accent-3);margin-bottom:0.3rem;">6. Resultados — Business Intelligence</p>
         <h2 class="font-display reveal" style="font-size:clamp(1.3rem,2.5vw,2rem);font-weight:700;margin-bottom:0.8rem;">BI-1 y BI-2: Descriptivos de Bienestar</h2>
 
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;align-items:start;" class="reveal">
 
             <!-- COLUMNA IZQUIERDA: Gráfico edad -->
             <div>
-                <div style="font-size:0.72rem;font-weight:700;color:var(--color-accent-3);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.5rem;">
+                <div style="font-size:0.84rem;font-weight:700;color:var(--color-accent-3);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.5rem;">
                     BI-1 · Optimismo medio por grupo de edad
                 </div>
                 <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:10px;padding:0.8rem;">
                     <canvas id="chart-edad" style="max-height:260px;"></canvas>
                 </div>
-                <p style="font-size:0.72rem;color:var(--color-text-muted);margin-top:0.4rem;">Curva en U: mínimo en 25–34 (6.276), máximo en +75 (6.872). Diferencia total: 0.60 pts.</p>
+                <p style="font-size:0.84rem;color:var(--color-text-muted);margin-top:0.4rem;">Curva en U: mínimo en 25–34 (6.276), máximo en +75 (6.872). Diferencia total: 0.60 pts.</p>
             </div>
 
             <!-- COLUMNA DERECHA: Tabs con dos gráficos BI-2 -->
             <div>
-                <div style="font-size:0.72rem;font-weight:700;color:var(--color-accent-2);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.5rem;">
+                <div style="font-size:0.84rem;font-weight:700;color:var(--color-accent-2);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.5rem;">
                     BI-2 · Felicidad media — Hábitat, Edad y Sexo
                 </div>
                 <!-- Botones tab -->
                 <div style="display:flex;gap:0.4rem;margin-bottom:0.5rem;">
                     <button onclick="switchTab('habitat')" id="tab-btn-habitat"
-                        style="font-size:0.72rem;padding:0.3rem 0.8rem;border-radius:20px;border:1px solid var(--color-accent-2);background:var(--color-accent-2);color:#0f172a;font-weight:700;cursor:pointer;transition:all 0.2s;">
+                        style="font-size:0.84rem;padding:0.3rem 0.8rem;border-radius:20px;border:1px solid var(--color-accent-2);background:var(--color-accent-2);color:#0f172a;font-weight:700;cursor:pointer;transition:all 0.2s;">
                         Por hábitat
                     </button>
                     <button onclick="switchTab('edad-sexo')" id="tab-btn-edad-sexo"
-                        style="font-size:0.72rem;padding:0.3rem 0.8rem;border-radius:20px;border:1px solid var(--color-glass-border);background:transparent;color:var(--color-text-muted);cursor:pointer;transition:all 0.2s;">
+                        style="font-size:0.84rem;padding:0.3rem 0.8rem;border-radius:20px;border:1px solid var(--color-glass-border);background:transparent;color:var(--color-text-muted);cursor:pointer;transition:all 0.2s;">
                         Por edad y sexo
                     </button>
                 </div>
@@ -312,7 +312,7 @@
                 <div id="tab-edad-sexo" style="display:none;background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:10px;padding:0.8rem;">
                     <canvas id="chart-edad-sexo" style="height:220px;"></canvas>
                 </div>
-                <p id="tab-caption" style="font-size:0.72rem;color:var(--color-text-muted);margin-top:0.4rem;">
+                <p id="tab-caption" style="font-size:0.84rem;color:var(--color-text-muted);margin-top:0.4rem;">
                     Variación máxima entre municipios: 0.26 pts. Sin patrón rural-urbano lineal.
                 </p>
             </div>
@@ -321,7 +321,7 @@
 
         <!-- Conclusión -->
         <div class="reveal" style="margin-top:0.7rem;background:rgba(52,211,153,0.06);border:1px solid rgba(52,211,153,0.15);border-radius:8px;padding:0.6rem;text-align:center;">
-            <span style="font-size:0.82rem;color:var(--color-text-secondary);"><strong>Conclusión:</strong> Sexo, edad y hábitat explican una fracción mínima de la variación en bienestar. La diferencia máxima entre subgrupos es de 0.39 pts sobre 10.</span>
+            <span style="font-size:0.95rem;color:var(--color-text-secondary);"><strong>Conclusión:</strong> Sexo, edad y hábitat explican una fracción mínima de la variación en bienestar. La diferencia máxima entre subgrupos es de 0.39 pts sobre 10.</span>
         </div>
     </div>
 </div>
@@ -332,37 +332,37 @@
         <div class="blob" style="width:260px;height:260px;bottom:-50px;left:-40px;background:var(--color-accent-1);opacity:0.06;"></div>
     </div>
     <div class="content">
-        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.75rem;color:var(--color-accent-2);margin-bottom:0.3rem;">6. Resultados — Business Analytics</p>
+        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.87rem;color:var(--color-accent-2);margin-bottom:0.3rem;">6. Resultados — Business Analytics</p>
         <h2 class="font-display reveal" style="font-size:clamp(1.3rem,2.5vw,2rem);font-weight:700;margin-bottom:0.7rem;">BA-1: ¿Qué variables explican el optimismo?</h2>
 
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;" class="reveal">
             <!-- Jerarquía -->
             <div>
-                <div style="font-size:0.72rem;font-weight:700;color:var(--color-accent-2);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.5rem;">Jerarquía explicativa</div>
+                <div style="font-size:0.84rem;font-weight:700;color:var(--color-accent-2);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.5rem;">Jerarquía explicativa</div>
                 <div style="display:flex;flex-direction:column;gap:0.35rem;">
                     <div style="display:flex;gap:0.6rem;align-items:flex-start;background:rgba(52,211,153,0.06);border:1px solid rgba(52,211,153,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
-                        <span style="font-size:0.8rem;font-weight:700;color:var(--color-accent-1);">①</span>
-                        <span style="font-size:0.8rem;color:var(--color-text-secondary);"><strong>P1012</strong> — percepción económica (r=0.254). <em>Nodo raíz DS-1</em></span>
+                        <span style="font-size:0.93rem;font-weight:700;color:var(--color-accent-1);">①</span>
+                        <span style="font-size:0.93rem;color:var(--color-text-secondary);"><strong>P1012</strong> — percepción económica (r=0.254). <em>Nodo raíz DS-1</em></span>
                     </div>
                     <div style="display:flex;gap:0.6rem;align-items:flex-start;background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:7px;padding:0.5rem 0.7rem;">
-                        <span style="font-size:0.8rem;font-weight:700;color:var(--color-accent-2);">②</span>
-                        <span style="font-size:0.8rem;color:var(--color-text-secondary);"><strong>P1013</strong> — valoración servicios públicos. Nodo nivel 2</span>
+                        <span style="font-size:0.93rem;font-weight:700;color:var(--color-accent-2);">②</span>
+                        <span style="font-size:0.93rem;color:var(--color-text-secondary);"><strong>P1013</strong> — valoración servicios públicos. Nodo nivel 2</span>
                     </div>
                     <div style="display:flex;gap:0.6rem;align-items:flex-start;background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:7px;padding:0.5rem 0.7rem;">
-                        <span style="font-size:0.8rem;font-weight:700;color:var(--color-accent-3);">③</span>
-                        <span style="font-size:0.8rem;color:var(--color-text-secondary);"><strong>P1015, P1014</strong> — otras valoraciones. Nodos intermedios</span>
+                        <span style="font-size:0.93rem;font-weight:700;color:var(--color-accent-3);">③</span>
+                        <span style="font-size:0.93rem;color:var(--color-text-secondary);"><strong>P1015, P1014</strong> — otras valoraciones. Nodos intermedios</span>
                     </div>
                     <div style="display:flex;gap:0.6rem;align-items:flex-start;background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.15);border-radius:7px;padding:0.5rem 0.7rem;">
-                        <span style="font-size:0.8rem;font-weight:700;color:#ef4444;"></span>
-                        <span style="font-size:0.8rem;color:var(--color-text-secondary);"><strong>PROVINCIA, SEXO, TAMAÑO_HABITAT</strong> — sin relevancia en ningún algoritmo</span>
+                        <span style="font-size:0.93rem;font-weight:700;color:#ef4444;"></span>
+                        <span style="font-size:0.93rem;color:var(--color-text-secondary);"><strong>PROVINCIA, SEXO, TAMAÑO_HABITAT</strong> — sin relevancia en ningún algoritmo</span>
                     </div>
                 </div>
             </div>
             <!-- Perfiles extremos -->
             <div>
-                <div style="font-size:0.72rem;font-weight:700;color:var(--color-accent-1);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.5rem;">Perfiles extremos del árbol DS-1</div>
+                <div style="font-size:0.84rem;font-weight:700;color:var(--color-accent-1);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.5rem;">Perfiles extremos del árbol DS-1</div>
                 <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:10px;padding:0.9rem;height:100%;box-sizing:border-box;">
-                    <div style="font-size:0.82rem;color:var(--color-text-secondary);line-height:1.7;">
+                    <div style="font-size:0.95rem;color:var(--color-text-secondary);line-height:1.7;">
                         <strong style="color:#ef4444;">Mín. 3.899</strong> — Economía declarada "muy buena" (P1012=5) + entorno rural. Paradoja: el ciudadano posibliemente compara su situación con aspiraciones o referentes externos que no puede alcanzar desde su entorno.<br><br>
                         <strong style="color:var(--color-accent-1);">Máx. 7.516</strong> — Economía media (P1012=3) + servicios valorados positivamente. El máximo optimismo no es el más rico.
                     </div>
@@ -372,7 +372,7 @@
 
         <!-- Árbol con zoom al click -->
         <div class="reveal" style="margin-top:0.7rem;">
-            <div style="font-size:0.72rem;font-weight:700;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.4rem;">
+            <div style="font-size:0.84rem;font-weight:700;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.4rem;">
                 Árbol de decisión DS-1 — <span style="color:var(--color-accent-2);cursor:pointer;" onclick="document.getElementById('modal-arbol').style.display='flex'">click para ampliar</span>
             </div>
             <img src="arbol-ds-1.png" alt="Árbol de decisión DS-1"
@@ -391,18 +391,6 @@
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- SLIDE 9: RESULTADOS BA-2 -->
 <div class="slide" data-slide="9">
     <div class="gradient-mesh">
@@ -410,27 +398,27 @@
         <div class="blob" style="width:260px;height:260px;bottom:-50px;left:-40px;background:var(--color-accent-1);opacity:0.06;"></div>
     </div>
     <div class="content">
-        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.75rem;color:var(--color-accent-2);margin-bottom:0.3rem;">6. Resultados — Business Analytics</p>
+        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.87rem;color:var(--color-accent-2);margin-bottom:0.3rem;">6. Resultados — Business Analytics</p>
         <h2 class="font-display reveal" style="font-size:clamp(1.3rem,2.5vw,2rem);font-weight:700;margin-bottom:0.8rem;">BA-2: ¿Condiciona el hábitat el bienestar<br>controlado por economía y estudios?</h2>
 
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;" class="reveal">
 
             <!-- COLUMNA IZQUIERDA: Hipótesis y metodología -->
             <div style="display:flex;flex-direction:column;gap:0.6rem;">
-                <div style="font-size:0.72rem;font-weight:700;color:var(--color-accent-2);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.2rem;">Hipótesis planteada</div>
-                <div style="background:rgba(6,182,212,0.06);border:1px solid rgba(6,182,212,0.2);border-radius:8px;padding:0.8rem;font-size:0.82rem;color:var(--color-text-secondary);line-height:1.6;">
+                <div style="font-size:0.84rem;font-weight:700;color:var(--color-accent-2);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.2rem;">Hipótesis planteada</div>
+                <div style="background:rgba(6,182,212,0.06);border:1px solid rgba(6,182,212,0.2);border-radius:8px;padding:0.8rem;font-size:0.95rem;color:var(--color-text-secondary);line-height:1.6;">
                     Si el hábitat rural limita el acceso a recursos, empleo y servicios, entonces <strong style="color:var(--color-accent-2);">vivir en un municipio pequeño debería reducir el bienestar</strong> incluso entre personas con similar nivel económico y educativo.
                 </div>
 
-                <div style="font-size:0.72rem;font-weight:700;color:var(--color-accent-2);text-transform:uppercase;letter-spacing:3px;margin-top:0.3rem;margin-bottom:0.2rem;">Cómo se contrasta</div>
+                <div style="font-size:0.84rem;font-weight:700;color:var(--color-accent-2);text-transform:uppercase;letter-spacing:3px;margin-top:0.3rem;margin-bottom:0.2rem;">Cómo se contrasta</div>
                 <div style="display:flex;flex-direction:column;gap:0.3rem;">
-                    <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:7px;padding:0.5rem 0.7rem;font-size:0.8rem;color:var(--color-text-secondary);">
+                    <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:7px;padding:0.5rem 0.7rem;font-size:0.93rem;color:var(--color-text-secondary);">
                         <strong>AutoModel</strong> — 64.308 configuraciones sobre 6 algoritmos con TAMAÑO_HABITAT como variable candidata
                     </div>
-                    <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:7px;padding:0.5rem 0.7rem;font-size:0.8rem;color:var(--color-text-secondary);">
+                    <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:7px;padding:0.5rem 0.7rem;font-size:0.93rem;color:var(--color-text-secondary);">
                         <strong>Árbol DS-1</strong> — TAMAÑO_HABITAT aparece en el árbol solo una vez, en un nodo terminal secundario (nivel 1 izquierdo), no como variable estructural
                     </div>
-                    <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:7px;padding:0.5rem 0.7rem;font-size:0.8rem;color:var(--color-text-secondary);">
+                    <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:7px;padding:0.5rem 0.7rem;font-size:0.93rem;color:var(--color-text-secondary);">
                         <strong>BI-2</strong> — Variación máxima de felicidad entre municipios: 0.26 pts sobre 10. Sin patrón rural-urbano lineal.
                     </div>
                 </div>
@@ -438,28 +426,23 @@
 
             <!-- COLUMNA DERECHA: Resultado y veredicto -->
             <div style="display:flex;flex-direction:column;gap:0.6rem;">
-                <div style="font-size:0.72rem;font-weight:700;color:var(--color-accent-1);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.2rem;">Resultado — 3 evidencias convergentes</div>
+                <div style="font-size:0.84rem;font-weight:700;color:var(--color-accent-1);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.2rem;">Resultado — 3 evidencias convergentes</div>
+                    <div style="display:flex;gap:0.6rem;align-items:flex-start;background:rgba(52,211,153,0.06);border:1px solid rgba(52,211,153,0.2);border-radius:7px;padding:0.55rem 0.7rem;">
+                        <span style="font-size:1rem;"></span>
+                        <span style="font-size:0.93rem;color:var(--color-text-secondary);">Lo que sí predice: <strong style="color:var(--color-accent-1);">la percepción subjetiva de la economía (P1012)</strong>, no las condiciones objetivas del entorno. Un ciudadano con buen nivel económico y estudios puede sentirse más feliz en un entorno menos favorecedor, y viceversa.</span>
+                    </div>
 
-                <div style="display:flex;gap:0.6rem;align-items:flex-start;background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.15);border-radius:7px;padding:0.55rem 0.7rem;">
-                    <span style="font-size:1rem;"></span>
-                    <span style="font-size:0.8rem;color:var(--color-text-secondary);"><strong style="color:#ef4444;">TAMAÑO_HABITAT</strong> no aparece entre las variables relevantes en ninguno de los 6 algoritmos del AutoModel</span>
-                </div>
-                <div style="display:flex;gap:0.6rem;align-items:flex-start;background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.15);border-radius:7px;padding:0.55rem 0.7rem;">
-                    <span style="font-size:1rem;"></span>
-                    <span style="font-size:0.8rem;color:var(--color-text-secondary);"><strong style="color:#ef4444;">NIVEL_ESTUDIOS</strong> tampoco emerge como predictor del optimismo en el árbol DS-1 ni en las correlaciones BA-1</span>
-                </div>
-                <div style="display:flex;gap:0.6rem;align-items:flex-start;background:rgba(52,211,153,0.06);border:1px solid rgba(52,211,153,0.2);border-radius:7px;padding:0.55rem 0.7rem;">
-                    <span style="font-size:1rem;"></span>
-                    <span style="font-size:0.8rem;color:var(--color-text-secondary);">Lo que sí predice: <strong style="color:var(--color-accent-1);">la percepción subjetiva de la economía (P1012)</strong>, no las condiciones objetivas del entorno. Un ciudadano con buen nivel económico y estudios puede sentirse más feliz en un entorno menos favorecedor, y viceversa.</span>
-                </div>
-
-                <!-- Veredicto final -->
-                <div style="margin-top:0.2rem;background:linear-gradient(135deg,rgba(52,211,153,0.08),rgba(6,182,212,0.08));border:1px solid rgba(52,211,153,0.25);border-radius:10px;padding:0.9rem;">
-                    <div style="font-size:0.72rem;font-weight:700;color:var(--color-accent-1);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.4rem;">Veredicto</div>
-                    <div style="font-size:0.85rem;color:var(--color-text-secondary);line-height:1.6;">
-                        La hipótesis se <strong style="color:#ef4444;">rechaza</strong>. El hábitat no condiciona el bienestar una vez que se tienen en cuenta las percepciones económicas. <strong style="color:var(--color-accent-1);">Lo que importa no es dónde vives, sino cómo percibes tu situación económica.</strong>
+                    <!-- Veredicto final -->
+                    <div style="margin-top:0.2rem;background:linear-gradient(135deg,rgba(52,211,153,0.08),rgba(6,182,212,0.08));border:1px solid rgba(52,211,153,0.25);border-radius:10px;padding:0.9rem;">
+                        <div style="font-size:0.84rem;font-weight:700;color:var(--color-accent-1);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.4rem;">Veredicto</div>
+                        <div style="font-size:0.97rem;color:var(--color-text-secondary);line-height:1.6;">
+                            La hipótesis se <strong style="color:#ef4444;">rechaza</strong>. El hábitat no condiciona el bienestar una vez que se tienen en cuenta las percepciones económicas. <strong style="color:var(--color-accent-1);">Lo que importa no es dónde vives, sino cómo percibes tu situación económica.</strong>
+                        </div>
                     </div>
                 </div>
+                
+
+                
             </div>
         </div>
     </div>
@@ -472,7 +455,7 @@
         <div class="blob" style="width:270px;height:270px;bottom:-55px;right:-40px;background:var(--color-accent-3);opacity:0.06;"></div>
     </div>
     <div class="content">
-        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.75rem;color:var(--color-accent-1);margin-bottom:0.3rem;">6. Resultados — DS-1 · Regresión</p>
+        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.87rem;color:var(--color-accent-1);margin-bottom:0.3rem;">6. Resultados — DS-1 · Regresión</p>
         <h2 class="font-display reveal" style="font-size:clamp(1.3rem,2.5vw,2rem);font-weight:700;margin-bottom:0.7rem;">DS-1: ¿Es posible predecir el optimismo? Y según qué variables.</h2>
 
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;" class="reveal">
@@ -481,7 +464,7 @@
             <div style="display:flex;flex-direction:column;gap:0.6rem;">
 
                 <!-- Captura flujo DS-1 -->
-                <div style="font-size:0.72rem;font-weight:700;color:var(--color-accent-1);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.2rem;">Flujo RapidMiner — DS-1</div>
+                <div style="font-size:0.84rem;font-weight:700;color:var(--color-accent-1);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.2rem;">Flujo RapidMiner — DS-1</div>
                 <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:8px;padding:0.5rem;text-align:center;">
                     <img src="flujo_ds1.png" alt="Flujo DS-1"
                         style="max-width:100%;max-height:400px;object-fit:contain;border-radius:6px;">
@@ -491,15 +474,15 @@
                 <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.5rem;">
                     <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:10px;padding:0.7rem;text-align:center;">
                         <div style="font-size:1.5rem;font-weight:900;color:var(--color-accent-1);" class="glow-pulse">1.939</div>
-                        <div style="font-size:0.7rem;color:var(--color-text-muted);margin-top:0.2rem;">MAE</div>
+                        <div style="font-size:0.82rem;color:var(--color-text-muted);margin-top:0.2rem;">MAE</div>
                     </div>
                     <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:10px;padding:0.7rem;text-align:center;">
                         <div style="font-size:1.5rem;font-weight:900;color:var(--color-accent-2);">2.483</div>
-                        <div style="font-size:0.7rem;color:var(--color-text-muted);margin-top:0.2rem;">RMSE</div>
+                        <div style="font-size:0.82rem;color:var(--color-text-muted);margin-top:0.2rem;">RMSE</div>
                     </div>
                     <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:10px;padding:0.7rem;text-align:center;">
                         <div style="font-size:1.5rem;font-weight:900;color:var(--color-accent-3);">37.6%</div>
-                        <div style="font-size:0.7rem;color:var(--color-text-muted);margin-top:0.2rem;">Error relativo</div>
+                        <div style="font-size:0.82rem;color:var(--color-text-muted);margin-top:0.2rem;">Error relativo</div>
                     </div>
                 </div>
             </div>
@@ -508,21 +491,21 @@
             <div style="display:flex;flex-direction:column;gap:0.6rem;">
 
                 <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:10px;padding:0.9rem;">
-                    <div style="font-size:0.72rem;font-weight:700;color:var(--color-accent-1);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.5rem;">Árbol DS-1 — Variables</div>
+                    <div style="font-size:0.84rem;font-weight:700;color:var(--color-accent-1);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.5rem;">Árbol DS-1 — Variables</div>
                     <div style="display:flex;flex-direction:column;gap:0.3rem;">
-                        <div style="display:flex;gap:0.5rem;font-size:0.8rem;color:var(--color-text-secondary);">
+                        <div style="display:flex;gap:0.5rem;font-size:0.93rem;color:var(--color-text-secondary);">
                             <span style="color:var(--color-accent-1);font-weight:700;min-width:90px;">Nodo raíz</span>
                             <span>P1012 — percepción económica personal</span>
                         </div>
-                        <div style="display:flex;gap:0.5rem;font-size:0.8rem;color:var(--color-text-secondary);">
+                        <div style="display:flex;gap:0.5rem;font-size:0.93rem;color:var(--color-text-secondary);">
                             <span style="color:var(--color-accent-2);font-weight:700;min-width:90px;">Intermedios</span>
                             <span>P1013, P1015, P1002, P1014, P2013, EDAD_RANGO</span>
                         </div>
-                        <div style="display:flex;gap:0.5rem;font-size:0.8rem;color:var(--color-text-secondary);">
+                        <div style="display:flex;gap:0.5rem;font-size:0.93rem;color:var(--color-text-secondary);">
                             <span style="color:#ef4444;font-weight:700;min-width:90px;">Ausentes</span>
                             <span>PROVINCIA y SEXO</span>
                         </div>
-                        <div style="display:flex;gap:0.5rem;font-size:0.8rem;color:var(--color-text-secondary);">
+                        <div style="display:flex;gap:0.5rem;font-size:0.93rem;color:var(--color-text-secondary);">
                             <span style="color:var(--color-accent-3);font-weight:700;min-width:90px;">Rango pred.</span>
                             <span>3.899 → 7.516 sobre escala 0–10</span>
                         </div>
@@ -530,8 +513,8 @@
                 </div>
 
                 <div style="background:rgba(52,211,153,0.06);border:1px solid rgba(52,211,153,0.2);border-radius:10px;padding:0.9rem;">
-                    <div style="font-size:0.72rem;font-weight:700;color:var(--color-accent-1);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.4rem;">Interpretación del error</div>
-                    <p style="font-size:0.8rem;color:var(--color-text-secondary);line-height:1.65;margin:0;">Un error del 37.6% no es un fracaso — es una conclusión: el optimismo principalmente actitudinal. El mejor predictor es una percepción subjetiva (P1012), no una variable objetiva. El optimismo responde a cómo se <em>siente</em> el ciudadano, no a cómo le <em>va</em>.</p>
+                    <div style="font-size:0.84rem;font-weight:700;color:var(--color-accent-1);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.4rem;">Interpretación del error</div>
+                    <p style="font-size:0.93rem;color:var(--color-text-secondary);line-height:1.65;margin:0;">Un error del 37.6% no es un fracaso — es una conclusión: el optimismo principalmente actitudinal. El mejor predictor es una percepción subjetiva (P1012), no una variable objetiva. El optimismo responde a cómo se <em>siente</em> el ciudadano, no a cómo le <em>va</em>.</p>
                 </div>
             </div>
         </div>
@@ -545,21 +528,21 @@
         <div class="blob" style="width:270px;height:270px;bottom:-50px;left:-40px;background:var(--color-accent-1);opacity:0.06;"></div>
     </div>
     <div class="content">
-        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.75rem;color:var(--color-accent-3);margin-bottom:0.3rem;">6. Resultados — DS-2 · Clasificación</p>
-        <h2 class="font-display reveal" style="font-size:clamp(1.3rem,2.5vw,2rem);font-weight:700;margin-bottom:0.7rem;">¿Podemos clasificar a un ciudadano como feliz o no feliz?</h2>
+        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.87rem;color:var(--color-accent-3);margin-bottom:0.3rem;">6. Resultados — DS-2 · Clasificación</p>
+        <h2 class="font-display reveal" style="font-size:clamp(1.3rem,2.5vw,2rem);font-weight:700;margin-bottom:0.7rem;">DS-2: ¿Podemos clasificar a un ciudadano como feliz o no feliz?</h2>
 
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;" class="reveal">
 
             <!-- Flujo DS-2 -->
             <div style="display:flex;flex-direction:column;gap:0.5rem;">
-                <div style="font-size:0.72rem;font-weight:700;color:var(--color-accent-3);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.2rem;">Flujo RapidMiner — DS-2</div>
+                <div style="font-size:0.84rem;font-weight:700;color:var(--color-accent-3);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.2rem;">Flujo RapidMiner — DS-2</div>
                 <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:8px;padding:0.5rem;text-align:center;">
                     <img src="flujo_ds2.png" alt="Flujo DS-2"
                         style="max-width:100%;max-height:250;object-fit:contain;border-radius:6px;">
                 </div>
                 <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:8px;padding:0.7rem;">
-                    <div style="font-size:0.72rem;font-weight:700;color:var(--color-accent-3);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.4rem;">Diferencia clave vs DS-1</div>
-                    <div style="display:flex;flex-direction:column;gap:0.25rem;font-size:0.78rem;color:var(--color-text-secondary);">
+                    <div style="font-size:0.84rem;font-weight:700;color:var(--color-accent-3);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.4rem;">Diferencia clave vs DS-1</div>
+                    <div style="display:flex;flex-direction:column;gap:0.25rem;font-size:0.92rem;color:var(--color-text-secondary);">
                         <div><span style="color:var(--color-accent-3);font-weight:700;">Variable objetivo:</span> FELIZ (nominal 0/1), no numérica continua</div>
                         <div><span style="color:var(--color-accent-3);font-weight:700;">Criterion:</span> gain_ratio en lugar de least_square</div>
                         <div><span style="color:var(--color-accent-3);font-weight:700;">Partición:</span> estratificada 70/30 para preservar proporción de clases</div>
@@ -570,11 +553,11 @@
 
             <!-- Decisión umbral 6 vs 8 -->
             <div style="display:flex;flex-direction:column;gap:0.5rem;">
-                <div style="font-size:0.72rem;font-weight:700;color:var(--color-accent-1);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.2rem;">Decisión del umbral — ¿por qué FELIZ = 1 si FELICIDAD ≥ 8?</div>
+                <div style="font-size:0.84rem;font-weight:700;color:var(--color-accent-1);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.2rem;">Decisión del umbral — ¿por qué FELIZ = 1 si FELICIDAD ≥ 8?</div>
 
                 <!-- Tabla comparativa -->
                 <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:8px;overflow:hidden;">
-                    <table style="width:100%;border-collapse:collapse;font-size:0.78rem;">
+                    <table style="width:100%;border-collapse:collapse;font-size:0.92rem;">
                         <thead>
                             <tr style="background:rgba(255,255,255,0.05);">
                                 <th style="padding:0.5rem 0.7rem;text-align:left;color:var(--color-text-muted);font-weight:600;">Métrica</th>
@@ -608,7 +591,7 @@
                 </div>
 
                 <div style="background:rgba(52,211,153,0.06);border:1px solid rgba(52,211,153,0.2);border-radius:8px;padding:0.7rem;">
-                    <div style="font-size:0.8rem;color:var(--color-text-secondary);line-height:1.6;">
+                    <div style="font-size:0.93rem;color:var(--color-text-secondary);line-height:1.6;">
                         El umbral ≥ 8 no solo mejora todas las métricas — genera un dataset casi equilibrado (52.5/47.5). Con umbral ≥ 6, el 82% de los casos son clase 1 y el modelo aprende a predecir siempre "feliz" sin coste real.
                     </div>
                 </div>
@@ -624,7 +607,7 @@
         <div class="blob" style="width:270px;height:270px;bottom:-50px;left:-40px;background:var(--color-accent-1);opacity:0.06;"></div>
     </div>
     <div class="content">
-        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.75rem;color:var(--color-accent-3);margin-bottom:0.3rem;">6. Resultados — DS-2 · Clasificación</p>
+        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.87rem;color:var(--color-accent-3);margin-bottom:0.3rem;">6. Resultados — DS-2 · Clasificación</p>
         <h2 class="font-display reveal" style="font-size:clamp(1.3rem,2.5vw,2rem);font-weight:700;margin-bottom:0.7rem;">DS-2: Árbol de clasificación y resultados</h2>
 
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;" class="reveal">
@@ -632,7 +615,7 @@
             <!-- Árbol + métricas -->
             <div style="display:flex;flex-direction:column;gap:0.5rem;">
 
-                <div style="font-size:0.72rem;font-weight:700;color:var(--color-accent-3);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.2rem;">Árbol de decisión DS-2 </div>
+                <div style="font-size:0.84rem;font-weight:700;color:var(--color-accent-3);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.2rem;">Árbol de decisión DS-2 </div>
                 <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:8px;padding:0.5rem;text-align:center;">
                     <img src="arbol_ds2.png" alt="Árbol DS-2"
                         style="max-width:100%;max-height:250;object-fit:contain;border-radius:6px;cursor:zoom-in;">
@@ -642,17 +625,17 @@
                 <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.4rem;">
                     <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:10px;padding:0.6rem;text-align:center;">
                         <div style="font-size:1.4rem;font-weight:900;color:var(--color-accent-1);" class="glow-pulse">76%</div>
-                        <div style="font-size:0.68rem;color:var(--color-text-muted);margin-top:0.2rem;">Accuracy</div>
-                        <div style="font-size:0.65rem;color:var(--color-text-muted);">+23.5 pp baseline</div>
+                        <div style="font-size:0.92rem;color:var(--color-text-muted);margin-top:0.2rem;">Accuracy</div>
+                        <div style="font-size:0.76rem;color:var(--color-text-muted);">+23.5 pp baseline</div>
                     </div>
                     <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:10px;padding:0.6rem;text-align:center;">
                         <div style="font-size:1.4rem;font-weight:900;color:var(--color-accent-2);">83.98%</div>
-                        <div style="font-size:0.68rem;color:var(--color-text-muted);margin-top:0.2rem;">Recall clase 0</div>
-                        <div style="font-size:0.65rem;color:var(--color-text-muted);">detecta no felices</div>
+                        <div style="font-size:0.92rem;color:var(--color-text-muted);margin-top:0.2rem;">Recall clase 0</div>
+                        <div style="font-size:0.76rem;color:var(--color-text-muted);">detecta no felices</div>
                     </div>
                     <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:10px;padding:0.6rem;text-align:center;">
                         <div style="font-size:1.4rem;font-weight:900;color:var(--color-accent-3);">78.67%</div>
-                        <div style="font-size:0.68rem;color:var(--color-text-muted);margin-top:0.2rem;">F1 clase 0</div>
+                        <div style="font-size:0.92rem;color:var(--color-text-muted);margin-top:0.2rem;">F1 clase 0</div>
                     </div>
                 </div>
             </div>
@@ -661,21 +644,21 @@
             <div style="display:flex;flex-direction:column;gap:0.5rem;">
 
                 <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-radius:10px;padding:0.85rem;">
-                    <div style="font-size:0.72rem;font-weight:700;color:var(--color-accent-3);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.5rem;">Estructura del árbol</div>
+                    <div style="font-size:0.84rem;font-weight:700;color:var(--color-accent-3);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.5rem;">Estructura del árbol</div>
                     <div style="display:flex;flex-direction:column;gap:0.3rem;">
-                        <div style="display:flex;gap:0.5rem;font-size:0.8rem;color:var(--color-text-secondary);">
+                        <div style="display:flex;gap:0.5rem;font-size:0.93rem;color:var(--color-text-secondary);">
                             <span style="color:var(--color-accent-1);font-weight:700;min-width:90px;">Nodo raíz</span>
                             <span>OPTIMISMO (umbral 7.5)</span>
                         </div>
-                        <div style="display:flex;gap:0.5rem;font-size:0.8rem;color:var(--color-text-secondary);">
+                        <div style="display:flex;gap:0.5rem;font-size:0.93rem;color:var(--color-text-secondary);">
                             <span style="color:var(--color-accent-1);font-weight:700;min-width:90px;">OPTIM. &gt; 7.5</span>
                             <span>FELIZ = 1 directamente, sin variables adicionales</span>
                         </div>
-                        <div style="display:flex;gap:0.5rem;font-size:0.8rem;color:var(--color-text-secondary);">
+                        <div style="display:flex;gap:0.5rem;font-size:0.93rem;color:var(--color-text-secondary);">
                             <span style="color:#ef4444;font-weight:700;min-width:90px;">OPTIM. ≤ 5.5</span>
                             <span>FELIZ = 0 con máxima confianza</span>
                         </div>
-                        <div style="display:flex;gap:0.5rem;font-size:0.8rem;color:var(--color-text-secondary);">
+                        <div style="display:flex;gap:0.5rem;font-size:0.93rem;color:var(--color-text-secondary);">
                             <span style="color:var(--color-accent-2);font-weight:700;min-width:90px;">5.5 – 7.5</span>
                             <span>Zona gris: entra EDAD_RANGO, BAJEV01, P1013</span>
                         </div>
@@ -683,8 +666,8 @@
                 </div>
 
                 <div style="background:rgba(52,211,153,0.06);border:1px solid rgba(52,211,153,0.2);border-radius:10px;padding:0.85rem;">
-                    <div style="font-size:0.72rem;font-weight:700;color:var(--color-accent-1);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.4rem;">Interpretación</div>
-                    <p style="font-size:0.8rem;color:var(--color-text-secondary);line-height:1.65;margin:0;">
+                    <div style="font-size:0.84rem;font-weight:700;color:var(--color-accent-1);text-transform:uppercase;letter-spacing:3px;margin-bottom:0.4rem;">Interpretación</div>
+                    <p style="font-size:0.93rem;color:var(--color-text-secondary);line-height:1.65;margin:0;">
                         El árbol confirma que <strong style="color:var(--color-accent-1);">el optimismo es el mejor predictor de la felicidad</strong> — ambas variables de bienestar se refuerzan. Por cada 100 ciudadanos en riesgo (FELIZ=0), el modelo identifica correctamente 84, frente a los 70 del umbral ≥ 6. En política pública, detectar vulnerabilidad con mayor precisión tiene un coste asimétrico: el error de tipo II (no detectar) es más grave que el de tipo I.
                     </p>
                 </div>
@@ -710,31 +693,31 @@
     </div>
     <canvas class="particle-canvas-ambient" style="position:absolute;inset:0;z-index:1;"></canvas>
     <div class="content">
-        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.75rem;color:var(--color-accent-1);margin-bottom:0.5rem;">7. Conclusiones</p>
+        <p class="reveal" style="text-transform:uppercase;letter-spacing:5px;font-size:0.87rem;color:var(--color-accent-1);margin-bottom:0.5rem;">7. Conclusiones</p>
         <h2 class="font-display reveal" style="font-size:clamp(1.5rem,2.8vw,2.4rem);font-weight:700;margin-bottom:0.3rem;">La cadena causal del bienestar</h2>
         <div class="reveal" style="text-align:center;background:rgba(52,211,153,0.06);border:1px solid rgba(52,211,153,0.2);border-radius:10px;padding:0.7rem;margin-bottom:0.9rem;font-size:1rem;font-weight:700;color:var(--color-accent-1);">
             Percepción económica positiva → Optimismo alto → Felicidad declarada
         </div>
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.7rem;" class="reveal">
             <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-left:3px solid var(--color-accent-1);border-radius:8px;padding:0.75rem;">
-                <div style="font-size:0.75rem;font-weight:700;color:var(--color-accent-1);margin-bottom:0.25rem;">① Actitudinal, no estructural</div>
-                <div style="font-size:0.79rem;color:var(--color-text-secondary);">Provincia, sexo y hábitat no aparecen en ningún modelo predictivo. 0.07–0.26 pts de diferencia máxima.</div>
+                <div style="font-size:0.87rem;font-weight:700;color:var(--color-accent-1);margin-bottom:0.25rem;">① Actitudinal, no estructural</div>
+                <div style="font-size:0.93rem;color:var(--color-text-secondary);">Provincia, sexo y hábitat no aparecen en ningún modelo predictivo. 0.07–0.26 pts de diferencia máxima.</div>
             </div>
             <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-left:3px solid var(--color-accent-2);border-radius:8px;padding:0.75rem;">
-                <div style="font-size:0.75rem;font-weight:700;color:var(--color-accent-2);margin-bottom:0.25rem;">② Percepción económica = variable palanca</div>
-                <div style="font-size:0.79rem;color:var(--color-text-secondary);">Diferencia de 3.6 pts en optimismo predicho entre mejor y peor percepción económica.</div>
+                <div style="font-size:0.87rem;font-weight:700;color:var(--color-accent-2);margin-bottom:0.25rem;">② Percepción económica = variable palanca</div>
+                <div style="font-size:0.93rem;color:var(--color-text-secondary);">Diferencia de 3.6 pts en optimismo predicho entre mejor y peor percepción económica.</div>
             </div>
             <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-left:3px solid var(--color-accent-3);border-radius:8px;padding:0.75rem;">
-                <div style="font-size:0.75rem;font-weight:700;color:var(--color-accent-3);margin-bottom:0.25rem;">③ El optimismo es la puerta a la felicidad</div>
-                <div style="font-size:0.79rem;color:var(--color-text-secondary);">Con umbral 7.5 clasifica directamente sin otras variables. Replicado en 3 análisis independientes.</div>
+                <div style="font-size:0.87rem;font-weight:700;color:var(--color-accent-3);margin-bottom:0.25rem;">③ El optimismo es la puerta a la felicidad</div>
+                <div style="font-size:0.93rem;color:var(--color-text-secondary);">Con umbral 7.5 clasifica directamente sin otras variables. Replicado en 3 análisis independientes.</div>
             </div>
             <div style="background:var(--color-glass-bg);border:1px solid var(--color-glass-border);border-left:3px solid #f97316;border-radius:8px;padding:0.75rem;">
-                <div style="font-size:0.75rem;font-weight:700;color:#f97316;margin-bottom:0.25rem;">④ Colectivo más vulnerable: 25–34 años</div>
-                <div style="font-size:0.79rem;color:var(--color-text-secondary);">Mínimo de optimismo (6.276) y felicidad. Vinculado a brecha laboral, no a características personales.</div>
+                <div style="font-size:0.87rem;font-weight:700;color:#f97316;margin-bottom:0.25rem;">④ Colectivo más vulnerable: 25–34 años</div>
+                <div style="font-size:0.93rem;color:var(--color-text-secondary);">Mínimo de optimismo (6.276) y felicidad. Vinculado a brecha laboral, no a características personales.</div>
             </div>
         </div>
         <div class="reveal" style="margin-top:0.7rem;background:rgba(6,182,212,0.07);border:1px solid rgba(6,182,212,0.2);border-radius:8px;padding:0.7rem;text-align:center;">
-            <span style="font-size:0.82rem;color:var(--color-text-secondary);"><strong>Limitación:</strong> Error relativo del 37.6% en DS-1 — el optimismo tiene un componente actitudinal no capturable con variables de encuesta. Quizás hubiese que preguntar otros aspectos más subjetivos para predecirlo · <strong>Aplicabilidad:</strong> El modelo permite perfilar ciudadanos andaluces en riesgo de bajo bienestar, pero para mejorar la capacidad predictiva sería necesario incorporar preguntas más subjetivas y orientadas al bienestar en el propio cuestionario.</span>
+            <span style="font-size:0.95rem;color:var(--color-text-secondary);"><strong>Limitación:</strong> Error relativo del 37.6% en DS-1 — el optimismo tiene un componente actitudinal no capturable con variables de encuesta. Quizás hubiese que preguntar otros aspectos más subjetivos para predecirlo · <strong>Aplicabilidad:</strong> El modelo permite perfilar ciudadanos andaluces en riesgo de bajo bienestar, pero para mejorar la capacidad predictiva sería necesario incorporar preguntas más subjetivas y orientadas al bienestar en el propio cuestionario.</span>
         </div>
     </div>
 </div>
@@ -791,13 +774,13 @@
                         legend: { display: false },
                         annotation: { annotations: {
                             media: { type:'line', yMin:6.59, yMax:6.59, borderColor:'rgba(255,255,255,0.35)', borderWidth:1.5, borderDash:[5,4],
-                                label:{ content:'Media: 6.59', display:true, color:'#94a3b8', font:{size:10}, position:'end', backgroundColor:'transparent' }}
+                                label:{ content:'Media: 6.59', display:true, color:'#94a3b8', font:{size:12}, position:'end', backgroundColor:'transparent' }}
                         }}
                     },
                     scales: {
-                        x: { ticks:{color:'#94a3b8',font:{family:'DM Sans',size:11}}, grid:{color:'rgba(255,255,255,0.05)'} },
-                        y: { min:6.1, max:7.1, ticks:{color:'#94a3b8',font:{family:'DM Sans',size:11}}, grid:{color:'rgba(255,255,255,0.07)'},
-                            title:{display:true, text:'Optimismo (0–10)', color:'#94a3b8', font:{size:11}} }
+                        x: { ticks:{color:'#94a3b8',font:{family:'DM Sans',size:13}}, grid:{color:'rgba(255,255,255,0.05)'} },
+                        y: { min:6.1, max:7.1, ticks:{color:'#94a3b8',font:{family:'DM Sans',size:13}}, grid:{color:'rgba(255,255,255,0.07)'},
+                            title:{display:true, text:'Optimismo (0–10)', color:'#94a3b8', font:{size:13}} }
                     }
                 }
             });
@@ -819,16 +802,16 @@
                 options: {
                     responsive: true,
                     plugins: {
-                        legend: { labels:{color:'#cbd5e1', font:{family:'DM Sans',size:11}} },
+                        legend: { labels:{color:'#cbd5e1', font:{family:'DM Sans',size:13}} },
                         annotation: { annotations: {
                             media: { type:'line', yMin:7.04, yMax:7.04, borderColor:'rgba(255,255,255,0.35)', borderWidth:1.5, borderDash:[5,4],
-                                label:{ content:'Media: 7.04', display:true, color:'#94a3b8', font:{size:10}, position:'end', backgroundColor:'transparent' }}
+                                label:{ content:'Media: 7.04', display:true, color:'#94a3b8', font:{size:12}, position:'end', backgroundColor:'transparent' }}
                         }}
                     },
                     scales: {
-                        x: { ticks:{color:'#94a3b8',font:{family:'DM Sans',size:10}}, grid:{color:'rgba(255,255,255,0.05)'} },
-                        y: { min:6.4, max:7.6, ticks:{color:'#94a3b8',font:{family:'DM Sans',size:11}}, grid:{color:'rgba(255,255,255,0.07)'},
-                            title:{display:true, text:'Felicidad (0–10)', color:'#94a3b8', font:{size:11}} }
+                        x: { ticks:{color:'#94a3b8',font:{family:'DM Sans',size:12}}, grid:{color:'rgba(255,255,255,0.05)'} },
+                        y: { min:6.4, max:7.6, ticks:{color:'#94a3b8',font:{family:'DM Sans',size:13}}, grid:{color:'rgba(255,255,255,0.07)'},
+                            title:{display:true, text:'Felicidad (0–10)', color:'#94a3b8', font:{size:13}} }
                     }
                 }
             });
@@ -868,13 +851,13 @@
                     ]
                 },
                 options: { responsive:true, maintainAspectRatio:false,
-                    plugins: { legend:{labels:{color:'#cbd5e1',font:{family:'DM Sans',size:11}}},
+                    plugins: { legend:{labels:{color:'#cbd5e1',font:{family:'DM Sans',size:13}}},
                         annotation:{annotations:{media:{type:'line',yMin:7.04,yMax:7.04,borderColor:'rgba(255,255,255,0.35)',borderWidth:1.5,borderDash:[5,4],
-                            label:{content:'Media: 7.04',display:true,color:'#94a3b8',font:{size:10},position:'end',backgroundColor:'transparent'}}}}},
+                            label:{content:'Media: 7.04',display:true,color:'#94a3b8',font:{size:12},position:'end',backgroundColor:'transparent'}}}}},
                     scales: {
-                        x:{ticks:{color:'#94a3b8',font:{family:'DM Sans',size:10}},grid:{color:'rgba(255,255,255,0.05)'}},
-                        y:{min:6.4,max:7.6,ticks:{color:'#94a3b8',font:{family:'DM Sans',size:11}},grid:{color:'rgba(255,255,255,0.07)'},
-                            title:{display:true,text:'Felicidad (0–10)',color:'#94a3b8',font:{size:11}}}
+                        x:{ticks:{color:'#94a3b8',font:{family:'DM Sans',size:12}},grid:{color:'rgba(255,255,255,0.05)'}},
+                        y:{min:6.4,max:7.6,ticks:{color:'#94a3b8',font:{family:'DM Sans',size:13}},grid:{color:'rgba(255,255,255,0.07)'},
+                            title:{display:true,text:'Felicidad (0–10)',color:'#94a3b8',font:{size:13}}}
                     }
                 }
             });
